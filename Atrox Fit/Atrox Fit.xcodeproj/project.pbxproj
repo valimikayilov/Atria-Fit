@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D14C7872AED47FB00C95273 /* Atrox_FitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14C7862AED47FB00C95273 /* Atrox_FitApp.swift */; };
+		3D14C7892AED47FB00C95273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14C7882AED47FB00C95273 /* ContentView.swift */; };
+		3D14C78B2AED47FC00C95273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D14C78A2AED47FC00C95273 /* Assets.xcassets */; };
+		3D14C78E2AED47FC00C95273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D14C78D2AED47FC00C95273 /* Preview Assets.xcassets */; };
+		3D14C7982AED47FC00C95273 /* Atrox_FitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14C7972AED47FC00C95273 /* Atrox_FitTests.swift */; };
+		3D14C7A22AED47FC00C95273 /* Atrox_FitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14C7A12AED47FC00C95273 /* Atrox_FitUITests.swift */; };
+		3D14C7A42AED47FC00C95273 /* Atrox_FitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14C7A32AED47FC00C95273 /* Atrox_FitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D14C7942AED47FC00C95273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D14C77B2AED47FB00C95273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D14C7822AED47FB00C95273;
+			remoteInfo = "Atrox Fit";
+		};
+		3D14C79E2AED47FC00C95273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D14C77B2AED47FB00C95273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D14C7822AED47FB00C95273;
+			remoteInfo = "Atrox Fit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D14C7832AED47FB00C95273 /* Atrox Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atrox Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D14C7862AED47FB00C95273 /* Atrox_FitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atrox_FitApp.swift; sourceTree = "<group>"; };
+		3D14C7882AED47FB00C95273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D14C78A2AED47FC00C95273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D14C78D2AED47FC00C95273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D14C7932AED47FC00C95273 /* Atrox FitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atrox FitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D14C7972AED47FC00C95273 /* Atrox_FitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atrox_FitTests.swift; sourceTree = "<group>"; };
+		3D14C79D2AED47FC00C95273 /* Atrox FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Atrox FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D14C7A12AED47FC00C95273 /* Atrox_FitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atrox_FitUITests.swift; sourceTree = "<group>"; };
+		3D14C7A32AED47FC00C95273 /* Atrox_FitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atrox_FitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D14C7802AED47FB00C95273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D14C7902AED47FC00C95273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D14C79A2AED47FC00C95273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D14C77A2AED47FB00C95273 = {
+			isa = PBXGroup;
+			children = (
+				3D14C7852AED47FB00C95273 /* Atrox Fit */,
+				3D14C7962AED47FC00C95273 /* Atrox FitTests */,
+				3D14C7A02AED47FC00C95273 /* Atrox FitUITests */,
+				3D14C7842AED47FB00C95273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D14C7842AED47FB00C95273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D14C7832AED47FB00C95273 /* Atrox Fit.app */,
+				3D14C7932AED47FC00C95273 /* Atrox FitTests.xctest */,
+				3D14C79D2AED47FC00C95273 /* Atrox FitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D14C7852AED47FB00C95273 /* Atrox Fit */ = {
+			isa = PBXGroup;
+			children = (
+				3D14C7862AED47FB00C95273 /* Atrox_FitApp.swift */,
+				3D14C7882AED47FB00C95273 /* ContentView.swift */,
+				3D14C78A2AED47FC00C95273 /* Assets.xcassets */,
+				3D14C78C2AED47FC00C95273 /* Preview Content */,
+			);
+			path = "Atrox Fit";
+			sourceTree = "<group>";
+		};
+		3D14C78C2AED47FC00C95273 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D14C78D2AED47FC00C95273 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D14C7962AED47FC00C95273 /* Atrox FitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D14C7972AED47FC00C95273 /* Atrox_FitTests.swift */,
+			);
+			path = "Atrox FitTests";
+			sourceTree = "<group>";
+		};
+		3D14C7A02AED47FC00C95273 /* Atrox FitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D14C7A12AED47FC00C95273 /* Atrox_FitUITests.swift */,
+				3D14C7A32AED47FC00C95273 /* Atrox_FitUITestsLaunchTests.swift */,
+			);
+			path = "Atrox FitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D14C7822AED47FB00C95273 /* Atrox Fit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D14C7A72AED47FC00C95273 /* Build configuration list for PBXNativeTarget "Atrox Fit" */;
+			buildPhases = (
+				3D14C77F2AED47FB00C95273 /* Sources */,
+				3D14C7802AED47FB00C95273 /* Frameworks */,
+				3D14C7812AED47FB00C95273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Atrox Fit";
+			productName = "Atrox Fit";
+			productReference = 3D14C7832AED47FB00C95273 /* Atrox Fit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D14C7922AED47FC00C95273 /* Atrox FitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D14C7AA2AED47FC00C95273 /* Build configuration list for PBXNativeTarget "Atrox FitTests" */;
+			buildPhases = (
+				3D14C78F2AED47FC00C95273 /* Sources */,
+				3D14C7902AED47FC00C95273 /* Frameworks */,
+				3D14C7912AED47FC00C95273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D14C7952AED47FC00C95273 /* PBXTargetDependency */,
+			);
+			name = "Atrox FitTests";
+			productName = "Atrox FitTests";
+			productReference = 3D14C7932AED47FC00C95273 /* Atrox FitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D14C79C2AED47FC00C95273 /* Atrox FitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D14C7AD2AED47FC00C95273 /* Build configuration list for PBXNativeTarget "Atrox FitUITests" */;
+			buildPhases = (
+				3D14C7992AED47FC00C95273 /* Sources */,
+				3D14C79A2AED47FC00C95273 /* Frameworks */,
+				3D14C79B2AED47FC00C95273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D14C79F2AED47FC00C95273 /* PBXTargetDependency */,
+			);
+			name = "Atrox FitUITests";
+			productName = "Atrox FitUITests";
+			productReference = 3D14C79D2AED47FC00C95273 /* Atrox FitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D14C77B2AED47FB00C95273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3D14C7822AED47FB00C95273 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3D14C7922AED47FC00C95273 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3D14C7822AED47FB00C95273;
+					};
+					3D14C79C2AED47FC00C95273 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3D14C7822AED47FB00C95273;
+					};
+				};
+			};
+			buildConfigurationList = 3D14C77E2AED47FB00C95273 /* Build configuration list for PBXProject "Atrox Fit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D14C77A2AED47FB00C95273;
+			productRefGroup = 3D14C7842AED47FB00C95273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D14C7822AED47FB00C95273 /* Atrox Fit */,
+				3D14C7922AED47FC00C95273 /* Atrox FitTests */,
+				3D14C79C2AED47FC00C95273 /* Atrox FitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D14C7812AED47FB00C95273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D14C78E2AED47FC00C95273 /* Preview Assets.xcassets in Resources */,
+				3D14C78B2AED47FC00C95273 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D14C7912AED47FC00C95273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D14C79B2AED47FC00C95273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D14C77F2AED47FB00C95273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D14C7892AED47FB00C95273 /* ContentView.swift in Sources */,
+				3D14C7872AED47FB00C95273 /* Atrox_FitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D14C78F2AED47FC00C95273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D14C7982AED47FC00C95273 /* Atrox_FitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D14C7992AED47FC00C95273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D14C7A22AED47FC00C95273 /* Atrox_FitUITests.swift in Sources */,
+				3D14C7A42AED47FC00C95273 /* Atrox_FitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D14C7952AED47FC00C95273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D14C7822AED47FB00C95273 /* Atrox Fit */;
+			targetProxy = 3D14C7942AED47FC00C95273 /* PBXContainerItemProxy */;
+		};
+		3D14C79F2AED47FC00C95273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D14C7822AED47FB00C95273 /* Atrox Fit */;
+			targetProxy = 3D14C79E2AED47FC00C95273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D14C7A52AED47FC00C95273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D14C7A62AED47FC00C95273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D14C7A82AED47FC00C95273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Atrox Fit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atrox.Atrox-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D14C7A92AED47FC00C95273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Atrox Fit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atrox.Atrox-Fit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D14C7AB2AED47FC00C95273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atrox.Atrox-FitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atrox Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Atrox Fit";
+			};
+			name = Debug;
+		};
+		3D14C7AC2AED47FC00C95273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atrox.Atrox-FitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atrox Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Atrox Fit";
+			};
+			name = Release;
+		};
+		3D14C7AE2AED47FC00C95273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atrox.Atrox-FitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Atrox Fit";
+			};
+			name = Debug;
+		};
+		3D14C7AF2AED47FC00C95273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atrox.Atrox-FitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Atrox Fit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D14C77E2AED47FB00C95273 /* Build configuration list for PBXProject "Atrox Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D14C7A52AED47FC00C95273 /* Debug */,
+				3D14C7A62AED47FC00C95273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D14C7A72AED47FC00C95273 /* Build configuration list for PBXNativeTarget "Atrox Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D14C7A82AED47FC00C95273 /* Debug */,
+				3D14C7A92AED47FC00C95273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D14C7AA2AED47FC00C95273 /* Build configuration list for PBXNativeTarget "Atrox FitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D14C7AB2AED47FC00C95273 /* Debug */,
+				3D14C7AC2AED47FC00C95273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D14C7AD2AED47FC00C95273 /* Build configuration list for PBXNativeTarget "Atrox FitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D14C7AE2AED47FC00C95273 /* Debug */,
+				3D14C7AF2AED47FC00C95273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D14C77B2AED47FB00C95273 /* Project object */;
+}
